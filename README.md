@@ -14,7 +14,7 @@ Atmega32u4 @ 16MHz |      X       |             |            |
 Atmega32u4 @ 8MHz |      X       |             |            | 
 ESP8266           |      X       |             |            | For SPI, ESP8266 has no pin 3, moved to pin 5.
 Atmega2560 @ 16MHz |      X       |             |            | 
-ATSAM3X8E         |      X       |             |            | 
+ATSAM3X8E         |      X       |             |      fdf      | 
 ATSAM21D          |             |      X       |            | I2C works, use SDA and SCL pins. For SPI, LCD blinks once on start up.
 ATtiny85 @ 16MHz  |             |      X       |            | Use TinyLiquidCrystal libray instead: https://github.com/adafruit/TinyLiquidCrystal
 
@@ -33,5 +33,5 @@ I2C uses SDA &amp; SCL pins 0 &amp; 2
   * ATSAM21D : Arduino Zero, M0 Pro
   * ATtiny85 @ 16MHz : Adafruit Trinket 5V
   * ATtiny85 @ 8MHz : Adafruit Gemma, Arduino Gemma, Adafruit Trinket 3V
-
+fdfdf
 <!-- END COMPATIBILITY TABLE -->
